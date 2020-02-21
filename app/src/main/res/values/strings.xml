@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lystn</string>
+    <string name="facebook_app_id">1449889638507392</string>
+    <string name="fb_login_protocol_scheme">fb1449889638507392</string>
+
+    <string name="enter_mobile">Please enter correct phone number</string>
+    <string name="enter_otp">Please enter OTP</string>
+</resources>

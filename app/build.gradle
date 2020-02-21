@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.app.lystn"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        useLibrary 'org.apache.http.legacy'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.jakewharton:butterknife:10.2.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.android.geolo.library.taggroup:taggroup:1.0.1@aar'
+    implementation 'com.android.support:cardview-v7:28.0.0-alpha3'
+    implementation 'com.android.support:recyclerview-v7:28.0.0-alpha3'
+    implementation 'com.android.support:support-v13:28.0.0-alpha3'
+    implementation 'com.airbnb.android:lottie:3.3.1'
+    implementation 'org.apache.httpcomponents:httpmime:4.2.3'
+    implementation 'org.apache.httpcomponents:httpcore:4.3.2'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.an.deviceinfo:deviceinfo:0.1.5'
+    implementation 'com.nabinbhandari.android:permissions:3.8'
+    implementation 'com.loopj.android:android-async-http:1.4.10'
+    implementation 'com.google.android:flexbox:2.0.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    implementation 'com.google.firebase:firebase-analytics:17.2.0'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'jp.wasabeef:glide-transformations:4.1.0'
+    implementation 'com.hbb20:ccp:2.3.6'
+//    implementation 'io.supercharge:shimmerlayout:2.1.0'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation 'com.borjabravo:readmoretextview:2.1.0'
+    implementation 'com.github.AhmMhd:SeeMoreTextView-Android:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.ixuea:AndroidDownloader:2.0.4'
+    implementation 'com.github.p32929:AndroidEasySQL-Library:1.4.0'
+    implementation 'com.chauthai.swipereveallayout:swipe-reveal-layout:1.4.1'
+    implementation 'net.alhazmy13.MediaPicker:libary:2.4.4'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation project(path: ':marquee')
+    implementation 'com.github.SzuYingHuang:MarqueeTextView:v1.2'
+    implementation 'com.github.corouteam:GlideToVectorYou:v2.0.0'
+    implementation 'com.danikula:videocache:2.7.1'
+//    implementation 'com.moengage:moe-android-sdk:5.2.5'
+}
+apply plugin: 'com.google.gms.google-services'

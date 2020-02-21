@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "251341717015",
+    "firebase_url": "https://lystn-29146.firebaseio.com",
+    "project_id": "lystn-29146",
+    "storage_bucket": "lystn-29146.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251341717015:android:927b3049c99068f904e652",
+        "android_client_info": {
+          "package_name": "com.app.lystn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251341717015-nsdtihrm3pnmhtdntnoktk01jvlbkfk1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.lystn",
+            "certificate_hash": "3ce479e32dad378402a852c3522de8a92add5fa5"
+          }
+        },
+        {
+          "client_id": "251341717015-64rdbbnu7fn80spul6u1vbiebpl9dhr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUsM5do_WnBo_2FC0Rv0JusdmRgALpZAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251341717015-4us2oflb7a4smfrdov7s56r0rk4i5op0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

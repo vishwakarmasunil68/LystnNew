@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/iv_country"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/icon_country_china"/>
+
+    <com.app.lystn.view.SFProMediumTV
+        android:id="@+id/tv_country_name"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:text="Country name"/>
+
+    <ImageView
+        android:id="@+id/iv_right_tick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/ic_right_tick"/>
+
+</LinearLayout>

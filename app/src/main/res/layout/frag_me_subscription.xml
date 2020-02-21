@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9F9F9"
+    android:clickable="true"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.app.lystn.view.RobotoMediumTV
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unlock Premium Features"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_me_sub_lystn"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ic_unlimited_download"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp">
+
+                <com.app.lystn.view.RobotoRegularTV
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited Download"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+
+                <com.app.lystn.view.RobotoRegularTV
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Enjoy your podcasts on the go, travelling without internet connection."/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ic_unlimited_subscription"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp">
+
+                <com.app.lystn.view.RobotoRegularTV
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited Subscriptions"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+
+                <com.app.lystn.view.RobotoRegularTV
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Stay updated with your favorite shows and authors round the clock"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ic_unlimited_download"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp">
+
+                <com.app.lystn.view.RobotoRegularTV
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Advertisements"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+
+                <com.app.lystn.view.RobotoRegularTV
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Absolutely no ads, Seriously !"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/ic_round_border_btn">
+
+            <com.app.lystn.view.RobotoBoldTV
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$4.9 Monthly"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"/>
+
+            <com.app.lystn.view.RobotoRegularTV
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Week Free!"
+                android:layout_marginBottom="5dp"
+                android:textSize="10sp"
+                android:textColor="@color/text_color"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/ic_round_fill_btn">
+
+            <com.app.lystn.view.RobotoBoldTV
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$4.9 Monthly"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"/>
+
+            <com.app.lystn.view.RobotoRegularTV
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Month Free!"
+                android:layout_marginBottom="5dp"
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.app.lystn.view.RobotoBoldTV
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="May be later"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

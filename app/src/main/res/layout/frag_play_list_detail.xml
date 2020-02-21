@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9F9F9"
+    android:clickable="true"
+    android:padding="10dp"
+    tools:context=".activity.LoginActivity">
+
+
+    <com.app.lystn.view.RobotoRegularTV
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="The people sidebar, populated by my Facebook friends, has actually proven handy, letting me listen to entire playlists of theirs, find new tracks I like, and share them with other users."/>
+
+    <com.app.lystn.view.RobotoRegularTV
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="Replay function of individual point to point, single track and all tracks"/>
+
+</LinearLayout>
